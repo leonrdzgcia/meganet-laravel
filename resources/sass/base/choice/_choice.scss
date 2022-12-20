@@ -1,0 +1,7 @@
+div.choices > .choices__inner {
+    background-color: white !important;
+}
+
+.choices[data-type*=select-one] .choices__inner {
+    padding-bottom: 0;
+}
