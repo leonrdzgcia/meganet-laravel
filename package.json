@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.2.4",
+        "axios": "^0.21.4",
+        "bootstrap": "^5.1.0",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.28",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.38.0",
+        "sass-loader": "^8.0.2",
+        "vue": "^3.2.4",
+        "vue-loader": "^16.5.0",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fullcalendar/core": "^5.10.1",
+        "@fullcalendar/daygrid": "^5.10.1",
+        "@fullcalendar/rrule": "^5.10.1",
+        "@googlemaps/js-api-loader": "^1.12.2",
+        "@popperjs/core": "^2.9.3",
+        "bootstrap-multiselect": "^1.1.0",
+        "dotenv": "^10.0.0",
+        "drift-zoom": "^1.5.0",
+        "moment": "^2.29.4",
+        "toastr": "^2.1.4",
+        "vue2-daterange-picker": "^0.6.8",
+        "vue3-google-map": "^0.8.2"
+    }
+}
